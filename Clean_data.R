@@ -1,4 +1,5 @@
 setwd("C:/Users/wdu/Downloads/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset")
+
 # the first part: read data
 test_X <- read.table("test/X_test.txt", header = F)
 test_Y <- read.table("test/y_test.txt", header = F)
@@ -14,6 +15,7 @@ features <- read.table("features.txt", header = F)
 merge_X <- rbind(test_X, train_X)
 merge_subject <- rbind(test_subject, train_subject)
 merge_Y <- rbind(test_Y, train_Y)
+
 # the second column of features data is what we need
 features_clean <- as.vector(features[,2])
 
