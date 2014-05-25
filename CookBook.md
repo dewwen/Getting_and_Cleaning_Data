@@ -1,4 +1,4 @@
-## "Getting and Cleaning Data" Course Project CookBook ##
+## CookBook ##
 
 
 ### Data ###
