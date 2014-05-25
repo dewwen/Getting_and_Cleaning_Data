@@ -1,4 +1,4 @@
-# ## Getting and Cleaning Data Course Project ## #
+# Getting and Cleaning Data Course Project #
 ----------
 
 Clean_data.R is a script that performs merge and clean funtion towards the Dataset comming from an experiment called "Human Activity Recognition Using Smartphones". It creates a tidy dataset in the end which includes the average of each variable for each activity and each subject.
